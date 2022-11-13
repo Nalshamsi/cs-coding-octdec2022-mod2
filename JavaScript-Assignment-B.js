@@ -68,8 +68,9 @@ house.garage.car2.honk();
 
 // (7) If the house has a garden, console.log the name of the flower.
 
+if (house.garden[0] === true) {
 console.log(house.garden[1]);
-
+}
 /**
  * PART II
  */
